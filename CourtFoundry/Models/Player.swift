@@ -18,6 +18,9 @@ class Player {
     var athleticism: Int
     var intangibles: Int
     var height: Int // in inches
+    var wins: Int
+    var losses: Int
+    var elo: Int
     var isSaved: Bool // Track if player is in permanent library
     
     init(
@@ -29,6 +32,9 @@ class Player {
         athleticism: Int = 3,
         intangibles: Int = 3,
         height: Int = 72,
+        wins: Int = 0,
+        losses: Int = 0,
+        elo: Int = 1500,
         isSaved: Bool = false
     ) {
         self.id = id
@@ -39,6 +45,9 @@ class Player {
         self.athleticism = athleticism
         self.intangibles = intangibles
         self.height = height
+        self.wins = wins
+        self.losses = losses
+        self.elo = elo
         self.isSaved = isSaved
     }
     

@@ -1,0 +1,140 @@
+# Xcode
+## Build generated
+build/
+Build/
+DerivedData/
+
+## User settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Xcode 8+
+*.xcscmblueprint
+*.xccheckout
+
+## Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+## CocoaPods
+Pods/
+
+## Carthage
+Carthage/Build/
+
+## Accio dependency manager
+Dependencies/
+.accio/
+
+## Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+## Code coverage
+*.xccovreport
+*.xccovarchive
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## SwiftPM Xcode workspace
+.xcodeproj/project.xcworkspace/xcuserdata/
+.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Swift & SwiftPM
+*.swiftpm
+
+# SPM artifacts cache
+.artifacts/
+
+# Tuist
+Tuist/
+
+# Simulator logs and device data (optional, uncomment if desired)
+# ~/Library/Logs/CoreSimulator/
+# ~/Library/Developer/CoreSimulator/Devices/
+
+# Xcode previews cache
+*.preview-thumbnails
+*.preview-thumbnails/**
+
+# Crash logs
+*.crash
+
+# Provisioning profiles and signing (keep if you commit managed profiles)
+*.mobileprovision
+*.provisionprofile
+
+# Archives
+*.xcarchive
+
+# Editor & tooling
+*.swp
+*~
+.idea/
+.vscode/
+
+# SPM workspace settings
+.swiftpm/xcode/
+
+# SwiftData & Core Data generated binary stores (do not commit runtime stores)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Metal shader cache
+*.metallib
+
+# XCFramework products
+*.xcframework
+
+# Derived interface files
+*.swiftinterface
+*.swiftmodule
+
+# Package plug-in working directories
+.plugin-work/
+
+# Generated docs
+.docc-build/
+
+# End of file

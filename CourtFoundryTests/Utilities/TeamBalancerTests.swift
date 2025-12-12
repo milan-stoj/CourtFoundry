@@ -8,7 +8,7 @@
 internal import Foundation
 import Testing
 
-@testable import RunItBack
+@testable import CourtFoundry
 
 struct TeamBalancerTests {
 

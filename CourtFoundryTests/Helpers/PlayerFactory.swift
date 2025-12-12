@@ -5,7 +5,7 @@
 //  Created by Milan Stojanovic on 12/11/25.
 //
 
-@testable import RunItBack
+@testable import CourtFoundry
 internal import Foundation
 
 enum SkillTier: Int {
